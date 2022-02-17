@@ -1,0 +1,16 @@
+3c3
+< import a1ece650
+---
+> import a1_modified
+200c200
+<         print("No such street exists, please enter an existing street name", file=sys.stderr)
+---
+>         print("Error: No such street exists, please enter an existing street name", file=sys.stderr)
+206c206
+<         print("street already exists, you cannot add it again, try to modify", file=sys.stderr)
+---
+>         print("Error: street already exists, you cannot add it again, try to modify", file=sys.stderr)
+215c215
+<         print("No such street exists, please enter an existing street name", file=sys.stderr)
+---
+>         print("Error: No such street exists, please enter an existing street name", file=sys.stderr)

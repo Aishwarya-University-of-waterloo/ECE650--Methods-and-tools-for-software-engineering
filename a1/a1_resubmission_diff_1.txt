@@ -1,0 +1,64 @@
+3c3
+< from calculations import *
+---
+> from calculations_modified import *
+11c11
+<         print("ERROR :: Extra spaces between street name words not allowed ", file=sys.stderr)
+---
+>         print("Error: Extra spaces between street name words not allowed ", file=sys.stderr)
+60c60
+<         print("not a valid input ", file=err)
+---
+>         print("Error: not a valid input ", file=err)
+71c71
+<             print("ERROR :: insufficient data ", file=err)
+---
+>             print("Error:  insufficient data ", file=err)
+83c83
+<                     print("ERROR :: entered operation is incorrect ", file=err)
+---
+>                     print("Error:  entered operation is incorrect ", file=err)
+94c94
+<                     print("ERROR :: entered operation is incorrect ", file=err)
+---
+>                     print("Error: entered operation is incorrect ", file=err)
+103c103
+<                     print("ERROR :: entered operation is incorrect ", file=err)
+---
+>                     print("Error:  entered operation is incorrect ", file=err)
+107c107
+<                         print("ERROR :: No special character allowed as street name ", file=err)
+---
+>                         print("Error: No special character allowed as street name ", file=err)
+111c111
+<                     print("ERROR :: entered operation is incorrect ", file=err)
+---
+>                     print("Error:  entered operation is incorrect ", file=err)
+135c135
+<         print("ERROR :: Missing Space between street and coordinates ", file=sys.stderr)
+---
+>         print("Error:  Missing Space between street and coordinates ", file=sys.stderr)
+141c141
+<         print("ERROR :: Missing space between two coordinates ", file=sys.stderr)
+---
+>         print("Error: Missing space between two coordinates ", file=sys.stderr)
+149c149
+<             print("ERROR :: No special character allowed as street name ", file=sys.stderr)
+---
+>             print("Error:  No special character allowed as street name ", file=sys.stderr)
+159c159
+<             print("ERROR :: Missing paranthesis ", file=sys.stderr)
+---
+>             print("Error:  Missing paranthesis ", file=sys.stderr)
+166c166
+<             print("ERROR :: insufficient data ", file=sys.stderr)
+---
+>             print("Error:  insufficient data ", file=sys.stderr)
+170c170
+<                 print("ERROR :: co-ordinates not entered properly ", file=sys.stderr)
+---
+>                 print("Error: co-ordinates not entered properly ", file=sys.stderr)
+173c173
+<         print("ERROR :: Insufficient data ", file=sys.stderr)
+---
+>         print("Error:  Insufficient data ", file=sys.stderr)
